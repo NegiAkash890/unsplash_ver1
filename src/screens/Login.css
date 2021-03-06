@@ -1,0 +1,62 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    min-width: 400px;
+    padding: 10px 0px;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.login_form>form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.form_field{
+  
+    width: 100%;
+}
+.form_field > input {
+    
+    border-radius: 0;
+    padding: 10px 20px;
+    border: 1px solid  #767676 ;
+    margin-bottom: 20px;
+    min-width: 100%;
+    outline: none;
+}
+.login button{
+    min-width: 400px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.fb_btn{
+    border-radius: 0px;
+    background-color: #1778F2;
+    color: white;
+    
+}
+.login_btn {
+    background-color: black;
+    color: white;
+}
+.signup_btn{
+    background-color: lightgrey;
+}
+.lg_bt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
