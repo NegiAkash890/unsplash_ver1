@@ -1,4 +1,8 @@
-import firebase from 'firebase'
+import firebase from 'firebase/app'
+import 'firebase/auth'
+import 'firebase/database'
+import 'firebase/firestore'
+
 const firebaseConfig = {
   apiKey: "AIzaSyCpj69H5GVSVtdpP6noyCzvhXYTjUeUoa0",
   authDomain: "unsplash-17ab7.firebaseapp.com",

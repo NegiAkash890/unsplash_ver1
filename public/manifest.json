@@ -1,8 +1,8 @@
 {
   "name": "UpSplash",
   "short_name": "Unsplash",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "theme_color": "white",
+  "background_color": "white",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",

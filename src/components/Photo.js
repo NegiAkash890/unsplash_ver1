@@ -3,8 +3,7 @@ import "./Photo.css";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import PicInfo from "./PicText";
 
-//Access Key : tXpgV0NGuX9uMhwMwW4a6HvZKObsp7VY1LntUQTgjFA
-//Secret key : D_Z_U6SN4Gt10ZCgeoaMmFsf2a8IU6L0gSclrkIhww8
+
 function Photo() {
   const [data, setdata] = useState([]);
   const clientId = "tXpgV0NGuX9uMhwMwW4a6HvZKObsp7VY1LntUQTgjFA";
@@ -15,7 +14,6 @@ function Photo() {
         return res.json();
       })
       .then((picdata) => {
-        console.log(picdata);
         return setdata(picdata);
       });
   }, [url]);

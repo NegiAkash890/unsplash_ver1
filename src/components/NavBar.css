@@ -52,7 +52,17 @@
     flex: 20%;
 }
 #nav_icon>i{
-    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 12px;
+    font-style: normal;
+}
+#logout{
+    cursor: pointer;
+   
 }
 @media (max-width:400px){
     #nav_logo{
